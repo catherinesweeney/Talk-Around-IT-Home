@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420F63821679845B0014F2E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420F63811679845B0014F2E9 /* UIKit.framework */; };
+		420F63841679845B0014F2E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420F63831679845B0014F2E9 /* Foundation.framework */; };
+		420F63861679845B0014F2E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420F63851679845B0014F2E9 /* CoreGraphics.framework */; };
+		420F638C1679845B0014F2E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 420F638A1679845B0014F2E9 /* InfoPlist.strings */; };
+		420F638E1679845B0014F2E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 420F638D1679845B0014F2E9 /* main.m */; };
+		420F63921679845B0014F2E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 420F63911679845B0014F2E9 /* AppDelegate.m */; };
+		420F63941679845B0014F2E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 420F63931679845B0014F2E9 /* Default.png */; };
+		420F63961679845B0014F2E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 420F63951679845B0014F2E9 /* Default@2x.png */; };
+		420F63981679845B0014F2E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 420F63971679845B0014F2E9 /* Default-568h@2x.png */; };
+		420F639B1679845B0014F2E9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420F63991679845B0014F2E9 /* MainStoryboard_iPhone.storyboard */; };
+		420F639E1679845B0014F2E9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 420F639C1679845B0014F2E9 /* MainStoryboard_iPad.storyboard */; };
+		420F63A11679845B0014F2E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420F63A01679845B0014F2E9 /* ViewController.m */; };
+		420F63A91679845B0014F2E9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420F63A81679845B0014F2E9 /* SenTestingKit.framework */; };
+		420F63AA1679845B0014F2E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420F63811679845B0014F2E9 /* UIKit.framework */; };
+		420F63AB1679845B0014F2E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420F63831679845B0014F2E9 /* Foundation.framework */; };
+		420F63B31679845B0014F2E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 420F63B11679845B0014F2E9 /* InfoPlist.strings */; };
+		420F63B61679845B0014F2E9 /* TalkAroundITTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 420F63B51679845B0014F2E9 /* TalkAroundITTests.m */; };
+		420F63C416799FED0014F2E9 /* arrow_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 420F63C016799FED0014F2E9 /* arrow_back.png */; };
+		420F63C516799FED0014F2E9 /* arrow_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 420F63C116799FED0014F2E9 /* arrow_forward.png */; };
+		420F63C616799FED0014F2E9 /* bluebuttonmain.png in Resources */ = {isa = PBXBuildFile; fileRef = 420F63C216799FED0014F2E9 /* bluebuttonmain.png */; };
+		420F63C716799FED0014F2E9 /* talk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 420F63C316799FED0014F2E9 /* talk.jpg */; };
+		420F63C91679A23A0014F2E9 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 420F63C81679A23A0014F2E9 /* View.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		420F63AC1679845B0014F2E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 420F63741679845B0014F2E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 420F637C1679845B0014F2E9;
+			remoteInfo = TalkAroundIT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		420F637D1679845B0014F2E9 /* TalkAroundIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkAroundIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		420F63811679845B0014F2E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		420F63831679845B0014F2E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		420F63851679845B0014F2E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		420F63891679845B0014F2E9 /* TalkAroundIT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TalkAroundIT-Info.plist"; sourceTree = "<group>"; };
+		420F638B1679845B0014F2E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		420F638D1679845B0014F2E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		420F638F1679845B0014F2E9 /* TalkAroundIT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TalkAroundIT-Prefix.pch"; sourceTree = "<group>"; };
+		420F63901679845B0014F2E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		420F63911679845B0014F2E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		420F63931679845B0014F2E9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		420F63951679845B0014F2E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		420F63971679845B0014F2E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		420F639A1679845B0014F2E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		420F639D1679845B0014F2E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		420F639F1679845B0014F2E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		420F63A01679845B0014F2E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		420F63A71679845B0014F2E9 /* TalkAroundITTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkAroundITTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		420F63A81679845B0014F2E9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		420F63B01679845B0014F2E9 /* TalkAroundITTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TalkAroundITTests-Info.plist"; sourceTree = "<group>"; };
+		420F63B21679845B0014F2E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		420F63B41679845B0014F2E9 /* TalkAroundITTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkAroundITTests.h; sourceTree = "<group>"; };
+		420F63B51679845B0014F2E9 /* TalkAroundITTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkAroundITTests.m; sourceTree = "<group>"; };
+		420F63C016799FED0014F2E9 /* arrow_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_back.png; sourceTree = "<group>"; };
+		420F63C116799FED0014F2E9 /* arrow_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_forward.png; sourceTree = "<group>"; };
+		420F63C216799FED0014F2E9 /* bluebuttonmain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluebuttonmain.png; sourceTree = "<group>"; };
+		420F63C316799FED0014F2E9 /* talk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = talk.jpg; sourceTree = "<group>"; };
+		420F63C81679A23A0014F2E9 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		420F637A1679845B0014F2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420F63821679845B0014F2E9 /* UIKit.framework in Frameworks */,
+				420F63841679845B0014F2E9 /* Foundation.framework in Frameworks */,
+				420F63861679845B0014F2E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420F63A31679845B0014F2E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420F63A91679845B0014F2E9 /* SenTestingKit.framework in Frameworks */,
+				420F63AA1679845B0014F2E9 /* UIKit.framework in Frameworks */,
+				420F63AB1679845B0014F2E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420F63721679845B0014F2E9 = {
+			isa = PBXGroup;
+			children = (
+				420F63871679845B0014F2E9 /* TalkAroundIT */,
+				420F63AE1679845B0014F2E9 /* TalkAroundITTests */,
+				420F63801679845B0014F2E9 /* Frameworks */,
+				420F637E1679845B0014F2E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		420F637E1679845B0014F2E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				420F637D1679845B0014F2E9 /* TalkAroundIT.app */,
+				420F63A71679845B0014F2E9 /* TalkAroundITTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		420F63801679845B0014F2E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				420F63811679845B0014F2E9 /* UIKit.framework */,
+				420F63831679845B0014F2E9 /* Foundation.framework */,
+				420F63851679845B0014F2E9 /* CoreGraphics.framework */,
+				420F63A81679845B0014F2E9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		420F63871679845B0014F2E9 /* TalkAroundIT */ = {
+			isa = PBXGroup;
+			children = (
+				420F63901679845B0014F2E9 /* AppDelegate.h */,
+				420F63911679845B0014F2E9 /* AppDelegate.m */,
+				420F63991679845B0014F2E9 /* MainStoryboard_iPhone.storyboard */,
+				420F639C1679845B0014F2E9 /* MainStoryboard_iPad.storyboard */,
+				420F63C81679A23A0014F2E9 /* View.xib */,
+				420F63BF16799FED0014F2E9 /* Images */,
+				420F639F1679845B0014F2E9 /* ViewController.h */,
+				420F63A01679845B0014F2E9 /* ViewController.m */,
+				420F63881679845B0014F2E9 /* Supporting Files */,
+			);
+			path = TalkAroundIT;
+			sourceTree = "<group>";
+		};
+		420F63881679845B0014F2E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				420F63891679845B0014F2E9 /* TalkAroundIT-Info.plist */,
+				420F638A1679845B0014F2E9 /* InfoPlist.strings */,
+				420F638D1679845B0014F2E9 /* main.m */,
+				420F638F1679845B0014F2E9 /* TalkAroundIT-Prefix.pch */,
+				420F63931679845B0014F2E9 /* Default.png */,
+				420F63951679845B0014F2E9 /* Default@2x.png */,
+				420F63971679845B0014F2E9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		420F63AE1679845B0014F2E9 /* TalkAroundITTests */ = {
+			isa = PBXGroup;
+			children = (
+				420F63B41679845B0014F2E9 /* TalkAroundITTests.h */,
+				420F63B51679845B0014F2E9 /* TalkAroundITTests.m */,
+				420F63AF1679845B0014F2E9 /* Supporting Files */,
+			);
+			path = TalkAroundITTests;
+			sourceTree = "<group>";
+		};
+		420F63AF1679845B0014F2E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				420F63B01679845B0014F2E9 /* TalkAroundITTests-Info.plist */,
+				420F63B11679845B0014F2E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		420F63BF16799FED0014F2E9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				420F63C016799FED0014F2E9 /* arrow_back.png */,
+				420F63C116799FED0014F2E9 /* arrow_forward.png */,
+				420F63C216799FED0014F2E9 /* bluebuttonmain.png */,
+				420F63C316799FED0014F2E9 /* talk.jpg */,
+			);
+			path = Images;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		420F637C1679845B0014F2E9 /* TalkAroundIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420F63B91679845B0014F2E9 /* Build configuration list for PBXNativeTarget "TalkAroundIT" */;
+			buildPhases = (
+				420F63791679845B0014F2E9 /* Sources */,
+				420F637A1679845B0014F2E9 /* Frameworks */,
+				420F637B1679845B0014F2E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkAroundIT;
+			productName = TalkAroundIT;
+			productReference = 420F637D1679845B0014F2E9 /* TalkAroundIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		420F63A61679845B0014F2E9 /* TalkAroundITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 420F63BC1679845B0014F2E9 /* Build configuration list for PBXNativeTarget "TalkAroundITTests" */;
+			buildPhases = (
+				420F63A21679845B0014F2E9 /* Sources */,
+				420F63A31679845B0014F2E9 /* Frameworks */,
+				420F63A41679845B0014F2E9 /* Resources */,
+				420F63A51679845B0014F2E9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				420F63AD1679845B0014F2E9 /* PBXTargetDependency */,
+			);
+			name = TalkAroundITTests;
+			productName = TalkAroundITTests;
+			productReference = 420F63A71679845B0014F2E9 /* TalkAroundITTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		420F63741679845B0014F2E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Catherine Sweeney";
+			};
+			buildConfigurationList = 420F63771679845B0014F2E9 /* Build configuration list for PBXProject "TalkAroundIT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 420F63721679845B0014F2E9;
+			productRefGroup = 420F637E1679845B0014F2E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				420F637C1679845B0014F2E9 /* TalkAroundIT */,
+				420F63A61679845B0014F2E9 /* TalkAroundITTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		420F637B1679845B0014F2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420F638C1679845B0014F2E9 /* InfoPlist.strings in Resources */,
+				420F63941679845B0014F2E9 /* Default.png in Resources */,
+				420F63961679845B0014F2E9 /* Default@2x.png in Resources */,
+				420F63981679845B0014F2E9 /* Default-568h@2x.png in Resources */,
+				420F639B1679845B0014F2E9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				420F639E1679845B0014F2E9 /* MainStoryboard_iPad.storyboard in Resources */,
+				420F63C416799FED0014F2E9 /* arrow_back.png in Resources */,
+				420F63C516799FED0014F2E9 /* arrow_forward.png in Resources */,
+				420F63C616799FED0014F2E9 /* bluebuttonmain.png in Resources */,
+				420F63C716799FED0014F2E9 /* talk.jpg in Resources */,
+				420F63C91679A23A0014F2E9 /* View.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420F63A41679845B0014F2E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420F63B31679845B0014F2E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		420F63A51679845B0014F2E9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		420F63791679845B0014F2E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420F638E1679845B0014F2E9 /* main.m in Sources */,
+				420F63921679845B0014F2E9 /* AppDelegate.m in Sources */,
+				420F63A11679845B0014F2E9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420F63A21679845B0014F2E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				420F63B61679845B0014F2E9 /* TalkAroundITTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		420F63AD1679845B0014F2E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 420F637C1679845B0014F2E9 /* TalkAroundIT */;
+			targetProxy = 420F63AC1679845B0014F2E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		420F638A1679845B0014F2E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420F638B1679845B0014F2E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		420F63991679845B0014F2E9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420F639A1679845B0014F2E9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		420F639C1679845B0014F2E9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420F639D1679845B0014F2E9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		420F63B11679845B0014F2E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				420F63B21679845B0014F2E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		420F63B71679845B0014F2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		420F63B81679845B0014F2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		420F63BA1679845B0014F2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkAroundIT/TalkAroundIT-Prefix.pch";
+				INFOPLIST_FILE = "TalkAroundIT/TalkAroundIT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		420F63BB1679845B0014F2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkAroundIT/TalkAroundIT-Prefix.pch";
+				INFOPLIST_FILE = "TalkAroundIT/TalkAroundIT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		420F63BD1679845B0014F2E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TalkAroundIT.app/TalkAroundIT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkAroundIT/TalkAroundIT-Prefix.pch";
+				INFOPLIST_FILE = "TalkAroundITTests/TalkAroundITTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		420F63BE1679845B0014F2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TalkAroundIT.app/TalkAroundIT";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkAroundIT/TalkAroundIT-Prefix.pch";
+				INFOPLIST_FILE = "TalkAroundITTests/TalkAroundITTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		420F63771679845B0014F2E9 /* Build configuration list for PBXProject "TalkAroundIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420F63B71679845B0014F2E9 /* Debug */,
+				420F63B81679845B0014F2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		420F63B91679845B0014F2E9 /* Build configuration list for PBXNativeTarget "TalkAroundIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420F63BA1679845B0014F2E9 /* Debug */,
+				420F63BB1679845B0014F2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		420F63BC1679845B0014F2E9 /* Build configuration list for PBXNativeTarget "TalkAroundITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				420F63BD1679845B0014F2E9 /* Debug */,
+				420F63BE1679845B0014F2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 420F63741679845B0014F2E9 /* Project object */;
+}
